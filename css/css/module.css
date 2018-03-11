@@ -44,13 +44,41 @@
   text-decoration: none;
 }
 
-.background-info__title {
-  font-size: 30px;
+.background-info {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)),
+                    url({{{ site.baseurl }}/assets/fruit-bowl.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 18% 26%;
+
+  height: 70vh;
+  text-align: center;
 }
+
+.background-info__desc {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.background-info__title {
+  color: #191818;
+  font-size: 50px;
+
+  line-height: 0.7;
+  padding-top: 80px;
+  }
 
 .background-info__title span {
   font-weight: 900;
 }
+
 
 .center {
   display: flex;
