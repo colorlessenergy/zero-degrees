@@ -1,0 +1,8 @@
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.center__svg {
+  margin: 0 15px;
+}
