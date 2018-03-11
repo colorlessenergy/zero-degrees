@@ -1,3 +1,19 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+                    url({{ site.baseurl }}/assets/hamburger.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  height: 80vh;
+}
+
+
 nav {
   align-items: center;
   display: flex;
@@ -21,6 +37,7 @@ nav {
 
 #menu-hamburger {
   margin: 0 15px;
+  height: auto;
 
   position: fixed;
   right: 0;
