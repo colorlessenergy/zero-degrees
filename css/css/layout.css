@@ -20,6 +20,10 @@ nav {
   justify-content: space-between;
 }
 
+i.fa {
+  font-size: 60px;
+}
+
 .responsive-nav__list-items {
   color: #fff;
   font-size: 50px;
