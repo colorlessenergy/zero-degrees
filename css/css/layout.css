@@ -4,6 +4,21 @@ nav {
   justify-content: space-between;
 }
 
+.responsive-nav__list-items {
+  color: #fff;
+  font-size: 50px;
+
+  list-style-type: none;
+  padding: 0;
+  margin-top: 69px;
+  margin-left: 30px;
+}
+
+.responsive-nav__list-items li {
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
 #menu-hamburger {
   margin: 0 15px;
 
