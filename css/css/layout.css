@@ -1,6 +1,6 @@
 header {
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-                    url({{ site.baseurl }}/assets/hamburger.jpg);
+                    url({{ site.baseurl }}/assets/peppers.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
