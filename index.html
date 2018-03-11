@@ -26,3 +26,8 @@ layout: default
     </div>
   </div>
 </section>
+<section class="gallery">
+  {% for fruit in site.data.gallery %}
+  <img class="gallery__img" src="{{ fruit.img }}" alt="{{ fruit.title }}">
+  {% endfor %}
+</section>
