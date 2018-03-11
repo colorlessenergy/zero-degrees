@@ -2,19 +2,19 @@
   padding: 50px 0;
 }
 
-.about__button {
+.about__button, .menu__button {
   margin: 30px 0;
   padding: 25px;
 }
 
-.about__cards {
+.about__cards, .menu__cards {
   font-size: 20px;
 
   margin: 0 20px;
   text-align: center;
 }
 
-.about__card {
+.about__card, .menu__card {
   margin: 30px 0;
   padding: 30px 0;
 }
@@ -34,7 +34,7 @@
   text-transform: uppercase;
 }
 
-.about__link {
+.about__link, .menu__link {
   background-color: #1f1f1f;
   color: #fff;
 
@@ -42,6 +42,14 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
+}
+
+.background-info__title {
+  font-size: 30px;
+}
+
+.background-info__title span {
+  font-weight: 900;
 }
 
 .center {
@@ -53,6 +61,16 @@
   margin: 0 15px;
 }
 
-.gallery__img {
+.gallery__img, .menu__img {
   width: 100%;
+}
+
+.menu__title {
+  font-size: 30px;
+  font-weight: 900;
+
+  letter-spacing: 1px;
+  padding: 50px 0;
+  text-align: center;
+  text-transform: uppercase;
 }
