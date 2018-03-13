@@ -47,8 +47,7 @@
 .background-info {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)),
-                    url({{{ site.baseurl }}/assets/fruit-bowl.jpg);
-  background-position: center;
+                    url({{ site.baseurl }}/assets/fruit-bowl.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 18% 26%;
