@@ -147,3 +147,10 @@ i.footer__social {
   text-align: center;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 961px) {
+  .about__cards {
+    display: flex;
+    justify-content: space-around;
+  }
+}

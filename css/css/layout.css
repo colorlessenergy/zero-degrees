@@ -23,6 +23,14 @@ nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
+
+  background-color: #1a1a1a;
+  color: #fff;
+  fill: #fff;
+}
+
+.nav__desktop {
+  display: none;
 }
 
 i.fa {
@@ -67,4 +75,26 @@ i.fa {
 
 .hamburger-menu__rect3 {
   opacity: 0;
+}
+
+
+
+@media screen and (min-width: 961px) {
+  #menu-hamburger {
+    display: none;
+  }
+
+  .nav__desktop {
+    display: flex;
+    font-size: 15px;
+    list-style-type: none;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .nav__desktop li {
+    margin: 0 16px;
+  }
 }
