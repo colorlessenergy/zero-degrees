@@ -28,7 +28,7 @@ layout: default
 </section>
 <section class="gallery">
   {% for fruit in site.data.gallery %}
-  <img class="gallery__img" src="{{ fruit.img }}" alt="{{ fruit.title }}">
+  <img class="gallery__img gallery__{{ forloop.index }}" src="{{ fruit.img }}" alt="{{ fruit.title }}">
   {% endfor %}
 </section>
 <section class="menu">
