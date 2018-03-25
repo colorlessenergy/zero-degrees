@@ -29,6 +29,67 @@ nav {
   fill: #fff;
 }
 
+.brochures {
+  background-color: #1a1a1a;
+  color: #fff;
+
+  margin: 30px;
+  padding: 25px;
+}
+
+.brochures__header {
+  width: 100%;
+  height: 250px;
+}
+
+.brochures__fruit {
+  background-image: url({{ site.baseurl }}/assets/blood-orange.jpg);
+  background-position: center;
+}
+
+.brochures__food {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+  margin: 10px 0 5px 0;
+}
+
+.brochures__footer {
+  color: #fff;
+  font-weight: 600;
+
+  margin: 40px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.brochures__footer p {
+  margin: 0;
+}
+
+.brochures__description {
+  margin: 0;
+  max-width: 250px;
+}
+
+.brochures__item {
+  flex: 1 1 auto;
+  margin: 0 10px 0 0;
+}
+
+.brochures__menu {
+  display: flex;
+}
+
+.brochures__measurement {
+  border-bottom: 1px #fff solid;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
 .nav__desktop {
   display: none;
 }
