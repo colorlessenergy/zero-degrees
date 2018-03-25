@@ -1,7 +1,17 @@
-<header>
+{% if page.url == '/' %}
+<header class="home">
   <h2>
     Home of the
     <br />
     <span>crazy good food</span>
   </h2>
 </header>
+{% elsif page.url == '/menu.html' %}
+<header class="menu-page">
+  <video id="stock-video" autoplay loop>
+    <source src="assets/stock-video.mp4" type='video/mp4'>
+    <img src="assets/all-food.jpg" />
+</video>
+<p class="menu-page__title">our menu</p>
+</header>
+{% endif %}

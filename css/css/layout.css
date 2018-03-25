@@ -2,7 +2,7 @@ footer {
   background-color: #040404
 }
 
-header {
+header.home {
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)),
                     url({{ site.baseurl }}/assets/peppers.jpg);
   background-position: center;
