@@ -165,7 +165,7 @@ i.footer__social {
   color: #fff;
   font-size: 52px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
   text-align: right;
 
   max-width: 260px;
@@ -179,6 +179,14 @@ i.footer__social {
   .about__cards {
     display: flex;
     justify-content: space-around;
+  }
+
+  .brochures {
+    margin: 30px;
+  }
+
+  .brochures__menu {
+    flex-direction: unset;
   }
 
   .menu__cards {
