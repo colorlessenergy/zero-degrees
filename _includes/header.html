@@ -11,7 +11,11 @@
   <video id="stock-video" autoplay loop>
     <source src="assets/stock-video.mp4" type='video/mp4'>
     <img src="assets/all-food.jpg" />
-</video>
-<p class="menu-page__title">our menu</p>
+  </video>
+  <p class="menu-page__title">our menu</p>
+</header>
+{% elsif page.url == '/location.html' %}
+<header class="locations-header">
+  <p class="menu-page__title">locations</p>
 </header>
 {% endif %}
