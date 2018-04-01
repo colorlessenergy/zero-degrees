@@ -44,6 +44,19 @@
   text-decoration: none;
 }
 
+.about-page {
+  margin: 50px 0;
+}
+
+.about-page__title {
+  font-weight: 900;
+  font-size: 30px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .background-info {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)),
@@ -147,6 +160,45 @@ i.footer__social {
   width: 100%;
 }
 
+.info {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.info__title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.info__desc {
+  line-height: 1.5;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+.list {
+  text-align: center;
+}
+
+.list__contain {
+  margin: 30px 0;
+  padding: 10px 0;
+}
+
+.list__info {
+  line-height: 1.5;
+
+  margin: auto;
+  max-width: 450px;
+}
+
+.list__title {
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
 .menu__title {
   font-size: 30px;
   font-weight: 900;
@@ -187,6 +239,23 @@ i.footer__social {
 
   .brochures__menu {
     flex-direction: unset;
+  }
+
+  .info__desc {
+    text-align: left
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list__contain {
+    margin: 30px;
+  }
+
+  .list__info {
+    margin: 30px 0;
   }
 
   .menu__cards {
