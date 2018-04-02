@@ -24,7 +24,8 @@ header.event {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+  background-attachment: fixed;
+
   height: 80vh
 }
 
@@ -114,6 +115,42 @@ nav {
   font-weight: 600;
   letter-spacing: 1px;
   text-align: right;
+}
+
+.event__contain {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.event__title {
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+.event__img {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.event__subtitle {
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  margin: 0 10px;
+}
+
+.event__list {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .location {
@@ -231,6 +268,20 @@ i.fa {
 @media screen and (min-width: 961px) {
   #menu-hamburger {
     display: none;
+  }
+
+  .event__contain {
+    flex-direction: row;
+  }
+
+  .event__title {
+    margin: 50px 0;
+  }
+
+  .event__img {
+    height: 350px;
+    margin: 0;
+    width: 46%;
   }
 
   .locations__info {
