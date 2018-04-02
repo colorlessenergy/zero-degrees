@@ -20,3 +20,12 @@ layout: default
     </div>
   </div>
 </section>
+<section class="quote">
+  <h2 class="quote__title">get a quote</h2>
+  <p class="quote__button"> <a class="quote__link" href="#">open form</a> </p>
+</section>
+<section class="gallery">
+  {% for fruit in site.data.gallery %}
+  <img class="gallery__img gallery__{{ forloop.index }}" src="{{ fruit.img }}" alt="{{ fruit.title }}">
+  {% endfor %}
+</section>

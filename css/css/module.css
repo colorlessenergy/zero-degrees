@@ -2,7 +2,7 @@
   padding: 50px 0;
 }
 
-.about__button, .menu__button {
+.about__button, .menu__button, .quote__button {
   margin: 30px 0;
   padding: 25px;
 }
@@ -34,7 +34,7 @@
   text-transform: uppercase;
 }
 
-.about__link, .menu__link {
+.about__link, .menu__link, .quote__link {
   background-color: #1f1f1f;
   color: #fff;
 
@@ -225,6 +225,22 @@ i.footer__social {
   position: absolute;
   top: 40%;
   right: 5%;
+}
+
+.quote {
+  margin: 50px 0;
+  padding: 30px 0;
+}
+
+.quote__button {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.quote__link {
+  background-color: #e7e7e6;
+  border: 3px solid #1f1f1f;
+  color: #1f1f1f;
 }
 
 @media screen and (min-width: 961px) {

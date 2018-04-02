@@ -124,7 +124,7 @@ nav {
   flex-direction: column;
 }
 
-.event__title {
+.event__title, .quote__title {
   font-weight: 900;
   font-size: 40px;
   text-transform: uppercase;
@@ -272,6 +272,7 @@ i.fa {
 
   .event__contain {
     flex-direction: row;
+    align-items: unset;
   }
 
   .event__title {
