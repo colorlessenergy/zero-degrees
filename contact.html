@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+{% include nav.html %}
+
+<section class="contact">
+  <h1>contact</h1>
+  <p>looking for something that you didnt't find? send us a message here</p>
+  <form class="form" action="https://formspree.io/theluckorange@yahoo.com"
+      method="POST">
+    <p class="form__p">Name: </p>
+    <div class="form__name">
+      <div class="form__group form__flex">
+        <input class="form__input" id="firstName" type="text" name="firstName" placeholder="first name">
+        <label class="form__label form__label--small" for="firstName">First Name: </label>
+      </div>
+      <div class="form__group form__flex">
+        <input class="form__input form__flex" id="lastName" type="text" name="lastName" placeholder="last name">
+        <label class="form__label form__label--small" for="lastName">Last Name: </label>
+      </div>
+    </div>
+
+    <div class="form__group">
+      <label class="form__label" for="email">Email: </label>
+      <input class="form__input" id="email" type="email" name="_replyto" placeholder="email address">
+    </div>
+    <div class="form__group">
+      <label class="form__label" for="subject">Subject: </label>
+      <input class="form__input" id="subject" type="text" name="subject" placeholder="subject">
+    </div>
+    <div class="form__group">
+      <label class="form__label" for="message">Message: </label>
+      <textarea class="form__textarea" id="message" name="message" rows="8" cols="80"></textarea>
+    </div>
+
+  <input type="submit" value="Send">
+</form>
+</section>
