@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 html, body {
   background-color: #e7e7e6;
   font-family: 'Roboto', sans-serif;
