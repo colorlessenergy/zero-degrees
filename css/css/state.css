@@ -15,3 +15,29 @@
 .menu-open {
   transform: translateX(0);
 }
+
+#menu-hamburger {
+  margin: 0 15px;
+  height: 84px;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#menu-hamburger rect {
+  transition: all 0.5s;
+}
+
+.hamburger-menu__rect1 {
+  transform: rotate(35deg) translate(3px, -1px);
+}
+
+.hamburger-menu__rect2 {
+  transform: rotate(-35deg) translate(-7px, 0);
+}
+
+.hamburger-menu__rect3 {
+  opacity: 0;
+}

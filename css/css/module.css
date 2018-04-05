@@ -48,13 +48,42 @@
   margin: 50px 0;
 }
 
-.about-page__title {
+.header-title {
+  color: #fff;
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: right;
+
+  max-width: 260px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+
+.title {
   font-weight: 900;
   font-size: 30px;
 
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.title--locations {
+  font-size: 35px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.title--menu {
+  padding: 50px 0;
+}
+
+.title--event, .title--quote {
+  font-size: 40px;
 }
 
 .background-info {
@@ -95,6 +124,10 @@
 .center {
   display: flex;
   align-items: center;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .center__svg {
@@ -199,48 +232,15 @@ i.footer__social {
   text-transform: uppercase;
 }
 
-.menu__title {
-  font-size: 30px;
-  font-weight: 900;
-
-  letter-spacing: 1px;
-  padding: 50px 0;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 .menu-page {
-  position: relative;
-}
-
-.menu-page__title {
-  color: #fff;
-  font-size: 52px;
-  text-transform: uppercase;
-  font-weight: 900;
-  text-align: right;
-
-  max-width: 260px;
-  margin: 0;
-  position: absolute;
-  top: 40%;
-  right: 5%;
+  margin-bottom: 50px;
 }
 
 .quote {
   margin: 50px 0;
   padding: 30px 0;
-}
-
-.quote__button {
-  padding: 15px 20px;
   text-align: center;
-}
-
-.quote__link {
-  background-color: #e7e7e6;
-  border: 3px solid #1f1f1f;
-  color: #1f1f1f;
 }
 
 /* contact styles */
@@ -313,6 +313,12 @@ i.footer__social {
     flex-direction: unset;
   }
 
+  .center {
+    top: 0;
+    position: relative;
+    z-index: 1;
+  }
+
   .info__desc {
     text-align: left
   }
@@ -340,11 +346,15 @@ i.footer__social {
     height: 90%;
   }
 
-  .menu-page__title {
+  .header-title {
     font-size: 100px;
 
     top: 46%;
     max-width: none;
+  }
+
+  .title--event {
+    margin: 50px 0;
   }
 
   .gallery {
