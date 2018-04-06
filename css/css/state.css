@@ -41,3 +41,8 @@
 .hamburger-menu__rect3 {
   opacity: 0;
 }
+
+.nav-color {
+  fill: #000;
+  color: #000;
+}
